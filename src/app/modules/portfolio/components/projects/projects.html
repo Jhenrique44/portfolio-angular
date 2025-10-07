@@ -2,10 +2,18 @@
   <h2>Projects</h2>
 
   <ul>
+    @for(item of arrayProjects(); track item){
     <li>
       <button>
-        <img src="" alt="" width="" height="" loading="lazy" />
+        <img
+          [src]="item.src"
+          [alt]="item.alt"
+          height="100px"
+          width="50px"
+          loading="lazy"
+        />
       </button>
     </li>
+    }
   </ul>
 </div>

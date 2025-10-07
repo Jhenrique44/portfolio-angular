@@ -9,29 +9,29 @@ import { ISkills } from '../../interface/ISkills.interface';
 })
 export class KnowledgeComponent {
   public arraySkills = signal<ISkills[]>([
-    { src: '../../../../../assets/icons/skills/html.svg', alt: 'HTML logo' },
-    { src: '../../../../../assets/icons/skills/css.svg', alt: 'CSS logo' },
+    { src: '/html.svg', alt: 'HTML logo' },
+    { src: '/css.svg', alt: 'CSS logo' },
     {
-      src: '../../../../../assets/icons/skills/javascript.svg',
+      src: '/javacript.svg',
       alt: 'JavaScript logo',
     },
-    // { src../../../../../: 'assets/icons/skills/typescript.svg', alt: 'TypeScript logo' },
+    // { src: '/typescript.svg', alt: 'TypeScript logo' },
+    // {
+    //   src: '/angular.svg',
+    //   alt: 'Angular logo',
+    // },
+    // { src: '/sass.svg', alt: 'Sass logo' },
+    { src: '/java.svg', alt: 'Java logo' },
     {
-      src: '../../../../../assets/icons/skills/angular.svg',
-      alt: 'Angular logo',
-    },
-    { src: '../../../../../assets/icons/skills/sass.svg', alt: 'Sass logo' },
-    { src: '../../../../../assets/icons/skills/java.svg', alt: 'Java logo' },
-    {
-      src: '../../../../../assets/icons/skills/spring.svg',
+      src: '/spring.svg',
       alt: 'Spring logo',
     },
-    { src: '../../../../../assets/icons/skills/sql.svg', alt: 'SQL logo' },
-    // { src: '../../../../../assets/icons/skills/git.svg', alt: 'Git logo' },
-    // { src: '../../../../../assets/icons/skills/aws.svg', alt: 'AWS logo' },
-    // {
-    //   src: '../../../../../assets/icons/skills/docker.svg',
-    //   alt: 'Docker logo',
-    // },
+    { src: '/sql.svg', alt: 'SQL logo' },
+    { src: '/git.svg', alt: 'Git logo' },
+    { src: '/aws.svg', alt: 'AWS logo' },
+    {
+      src: '/docker.svg',
+      alt: 'Docker logo',
+    },
   ]);
 }
