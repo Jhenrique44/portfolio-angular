@@ -27,11 +27,11 @@ export class KnowledgeComponent {
       alt: 'Spring logo',
     },
     { src: '/sql.svg', alt: 'SQL logo' },
-    { src: '/git.svg', alt: 'Git logo' },
-    { src: '/aws.svg', alt: 'AWS logo' },
-    {
-      src: '/docker.svg',
-      alt: 'Docker logo',
-    },
+    // { src: '/git.svg', alt: 'Git logo' },
+    // { src: '/aws.svg', alt: 'AWS logo' },
+    // {
+    //   src: '/docker.svg',
+    //   alt: 'Docker logo',
+    // },
   ]);
 }
